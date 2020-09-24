@@ -1,4 +1,3 @@
-import markdown2
 from flask import render_template,request,redirect,url_for,abort, flash
 from . import main
 from .forms import PitchForm, CommentForm, UpvoteForm, UpdateProfile

@@ -15,7 +15,9 @@
         "FLASK_DEBUG": "0"
       },
       "args": [
-        "run"
+        "run",
+        "--no-reload",
+        "--no-debugger",
       ],
       "jinja": true
     }
